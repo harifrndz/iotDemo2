@@ -1,7 +1,7 @@
 declared-services:
   iot-phonehash-cloudant-cloudantNoSQLDB:
     label: cloudantNoSQLDB
-    plan: lite
+    plan: Lite BICloudant
   iot-phonehash-iotf-service:
     label: iotf-service
     plan: iotf-service-free
