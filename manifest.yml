@@ -1,15 +1,15 @@
 declared-services:
-  iot-phone-cloudant-cloudantNoSQLDBhash:
-    label: cloudantNoSQLDBhash
+  iot-phonehash-cloudant-cloudantNoSQLDB:
+    label: cloudantNoSQLDB
     plan: Shared
-  iot-phone-iotf-servicehash:
-    label: iotf-servicehash
+  iot-phonehash-iotf-service:
+    label: iotf-service
     plan: iotf-service-free
 
 applications:
 - services:
-  - iot-phone-cloudant-cloudantNoSQLDBhash
-  - iot-phone-iotf-servicehash
+  - iot-phonehash-cloudant-cloudantNoSQLDB
+  - iot-phonehash-iotf-service
   host: iot-phonehash
   name: iot-phonehash
   disk: 128M
