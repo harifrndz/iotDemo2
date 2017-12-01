@@ -53,7 +53,7 @@ var iot_org = iot_props["org"];
 var iot_port = iot_props["mqtt_u_port"];
 var iot_username = "use-token-auth";
 
-var device_type = "iotphone";
+var device_type = "iotphonehash";
 
 // all environments
 app.set('port', process.env.PORT || 3001);
